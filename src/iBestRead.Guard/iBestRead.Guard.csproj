@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <LangVersion>latest</LangVersion>
+        <NoWarn>$(NoWarn);CS1591;NU1603</NoWarn>
+        <RootNamespace />
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Version>0.0.1</Version>
+        <PackageIconUrl>https://raw.githubusercontent.com/iBestRead/Assets/master/img/iBestRead-Logo-128.png</PackageIconUrl>
+        <PackageProjectUrl>https://github.com/iBestRead/Guard</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/iBestRead/Guard/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/iBestRead/Guard</RepositoryUrl>
+        <Description>guard check assert</Description>
+        <AssemblyTitle>guard check assert</AssemblyTitle>
+        <Authors>AkiniX</Authors>
+        <Company>iBestRead</Company>
+        <AssemblyName>iBestRead.Guard</AssemblyName>
+        <PackageId>iBestRead.Guard</PackageId>
+        <PackageTags>guard check assert</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+        <PackageReference Include="SourceLink.Create.CommandLine" Version="2.8.3" PrivateAssets="All" />
+    </ItemGroup>
+    
+</Project>
